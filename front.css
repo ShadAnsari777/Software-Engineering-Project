@@ -1,0 +1,101 @@
+@import url("font-family: 'Open Sans', sans-serif;");
+body{
+    margin: 0px;
+
+}
+.navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: rgb(21, 173, 161);
+    justify-content: space-between;
+}
+.navbar img{
+    width: 50px;
+    border-radius: 50px;
+    display: block;
+    margin: auto 0px;
+    border: 2px solid white;
+}
+.left{
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 35%;
+    /* padding-left:  15px; */
+}
+.left ul{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 30px;
+    list-style: none
+    ;
+    justify-content: space-around;
+}
+.left ul li{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+.mid{
+    /* border: 2px solid black; */
+    margin: auto 0px;
+    color: white;
+    /* width: 110%; */
+    
+    
+}
+.mid input{
+    height: 25px;
+    padding-left: 15px;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+
+.right{
+    width: 15%;
+    /* border: 2px solid red; */
+    margin-left: 5%;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: auto 0px;
+    
+}
+.right a{
+    margin-left: 25%;
+    color: white;
+    text-decoration: none;
+}
+.box{
+    border: 2px solid black;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.image img{
+    /* border:2px solid black;  */
+    width: 100%;
+    margin: 75px 0px;
+    height: 350px; 
+}
+.text{
+    /* border:2px solid black; */
+    width:45%;
+    padding-top: 50px;
+}
+h1{
+    font-weight: bolder;
+    font-size: xxx-large;
+    font-family: 'Open Sans', sans-serif;
+
+}
+h3{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+
+}
